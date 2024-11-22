@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background: linear-gradient(45deg, black, transparent);
+}
+.container{
+    background-color: cornsilk;
+    padding: 15px 15px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px;
+    
+}
+
+.Registration{
+    font-size: 25px;
+
+    font-family: algerian;
+    text-align: center;
+    border-block: 3px dashed aqua;
+
+}
+form .container2{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    justify-content: center;
+}
+form .container2 .inputbox{
+    width: calc(100/2);
+}
+form .container .inputbox{
+    height: 45px;
+    width: 100%;
+}
+.inputtext{
+    font-size: 25px;
+   
+}
+button{
+    margin: 10px 15px;
+    padding: 5px 9px;
+    background-color: wheat;
+}
+
